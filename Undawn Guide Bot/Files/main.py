@@ -19,8 +19,7 @@ keep_alive()
 @bot.command()
 async def info_bike(ctx):
   await ctx.send(
-    "Steering stability:- upgradable\n\n Acceleration performance:- upgradable\n\n Anti-hit ability: upgradable\n\n Climbing ability: upgradable\n\n Fuel consumption: upgradable\n\n Braking performance: upgradable\n\n Model name-\n Mad cow heavy-duty motorcycle.\n\n Weight-244KG.\n\nEngine model name-\n PW V-type twin-cylinder engine.\n\n Maximum torque -\n 87 NM @ 3750 RPM.\n\n Max speed-\n 60KM/H\n\n Engine displacement -\n 1202CC.\n\n Fuelel capacity-\n 7.9Litres "
-  )
+    "Steering stability:- upgradable\n\n Acceleration performance:- upgradable\n\n Anti-hit ability: upgradable\n\n Climbing ability: upgradable\n\n Fuel consumption: upgradable\n\n Braking performance: upgradable\n\n Model name-\n Mad cow heavy-duty motorcycle.\n\n Weight-244KG.\n\nEngine model name-\n PW V-type twin-cylinder engine.\n\n Maximum torque -\n 87 NM @ 3750 RPM.\n\n Max speed-\n 60KM/H\n\n Engine displacement -\n 1202CC.\n\n Fuelel capacity-\n 7.9Litres ")
 
 
 @bot.command()
@@ -51,5 +50,5 @@ async def info_gunpic(ctx):
 async def info_drone(ctx):
   await ctx.send("ELECTROMAGNETIC DRONE")
 
-token = "MTAzNzIwNzA4NjM4NTM0ODYzOQ.Gsdd0Q.Gwz-unmD4O1c8auqnaMR7z9quocYxqRzv6_f4w"
+token = "Enter here your discord bot token"
 bot.run(token)
